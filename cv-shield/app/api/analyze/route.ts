@@ -52,13 +52,13 @@ async function extractTextFromPdf(buffer: Buffer): Promise<string> {
 export async function POST(request: NextRequest) {
   try {
     // Check rate limit
-    // const clientIp = getClientIp(request);
-    // if (!checkRateLimit(clientIp)) {
-    //   return NextResponse.json(
-    //     { error: "Rate limit exceeded. Maximum 5 requests per minute." },
-    //     { status: 429 }
-    //   );
-    // }
+    const clientIp = getClientIp(request);
+     if (!checkRateLimit(clientIp)) {
+      return NextResponse.json(
+        { error: "Rate limit exceeded. Maximum 5 requests per minute." },
+        { status: 429 }
+      );
+    }
 
     // Parse form data
     const formData = await request.formData();
