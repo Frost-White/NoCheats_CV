@@ -11,7 +11,6 @@ interface ResultCardProps {
 }
 
 export default function ResultCard({ result, onNewAnalysis }: ResultCardProps) {
-  const isClean = result.verdict === "clean";
   const isSuspicious = result.verdict === "suspicious";
   const isAttacked = result.verdict === "attacked";
 
