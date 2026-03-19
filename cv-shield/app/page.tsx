@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 import UploadZone from "@/components/UploadZone";
 import ResultCard from "@/components/ResultCard";
 import { AnalysisResult } from "@/types/analysis";
