@@ -1,0 +1,29 @@
+{
+  "name": "cv-shield",
+  "version": "1.0.0",
+  "description": "Detect white text attacks and prompt injection attempts in uploaded CVs",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "next": "^14.0.0",
+    "pdf-parse": "^1.1.1",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16",
+    "@types/pdf-parse": "^1.1.5"
+  }
+}
