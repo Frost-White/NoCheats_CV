@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+
 import { AnalysisResult } from "@/types/analysis";
 import AttackBadge from "./AttackBadge";
 import { AlertTriangle, AlertCircle, CheckCircle } from "lucide-react";

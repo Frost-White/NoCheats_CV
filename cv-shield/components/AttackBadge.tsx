@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+
 import { AttackDetail } from "@/types/analysis";
 
 interface AttackBadgeProps {
