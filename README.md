@@ -40,7 +40,6 @@ Her taramadan sonra aşağıdaki bilgileri içeren bir rapor sunulur:
 | **Karar** | Temiz / Şüpheli / Saldırı Tespit Edildi |
 | **Güven Skoru** | Analizin güvenilirlik oranı |
 | **Tespit Edilen Tehditler** | Varsa bulunan saldırılar ve şiddet seviyeleri |
-| **Öneri** | CV ile ne yapılması gerektiğine dair yönlendirme |
 
 ---
 
